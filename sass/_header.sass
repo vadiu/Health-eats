@@ -1,0 +1,23 @@
+.header
+    height: 90px
+    position: relative
+    display: flex
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233)
+    z-index: 50
+    &__bg
+        position: absolute
+        z-index: -10
+    &__container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        z-index: 10
+    &__menu
+        &-link    
+            font-family: 'Roboto'
+            font-weight: 700
+            font-size: 14px
+            &:not(:last-child)
+                margin-right:45px 
+            &-first
+                color: $green__color
